@@ -1,0 +1,52 @@
+.faq-heading {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.faq-heading h2 {
+  font-weight: 700;
+}
+
+.accordion {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.accordion h6:hover {
+  color: #df0707;
+}
+.card-header {
+  background-color: white;
+  border-bottom: 2px solid #adadad;
+}
+
+.card {
+  border: none;
+  margin-top: 25px;
+}
+
+.arrow-down {
+  float: right;
+  font-size: 25px;
+  margin-top: -30px;
+  cursor: pointer;
+  color: #3b3b3b;
+}
+.faq-btn {
+  text-align: center;
+  margin-top: 102px;
+}
+.info-btn-p2 {
+  background-color: #5368df;
+  border: 2px solid transparent;
+  color: white;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.info-btn-p2:hover {
+  background-color: white;
+  border: 2px solid #5368df;
+  color: #5368df;
+  transition: 0.2s ease-out;
+}

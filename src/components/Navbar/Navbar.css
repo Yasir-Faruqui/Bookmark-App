@@ -1,0 +1,39 @@
+.navbar {
+  margin-top: 50px;
+}
+
+.nav {
+  position: absolute;
+  right: 20%;
+}
+.nav-link {
+  margin-right: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #df0707 !important;
+}
+.login-btn {
+  padding: 1px 20px;
+  margin-top: 5px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #df0707;
+  color: white;
+}
+.login-btn:hover {
+  background-color: white;
+  color: #df0707;
+  border: 1px solid #df0707;
+  transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 900px) {
+  .nav {
+    position: inherit;
+  }
+  .login-btn {
+    padding: 2px 20px;
+    margin-top: 10px;
+  }
+}

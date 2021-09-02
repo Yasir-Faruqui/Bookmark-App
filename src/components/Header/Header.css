@@ -1,0 +1,50 @@
+.header-left {
+  margin-top: 150px;
+}
+.header-left p {
+  line-height: 35px;
+}
+.header-right {
+  margin-top: 100px;
+}
+
+.header-heading {
+  font-weight: 600;
+}
+
+.chrome-btn {
+  background-color: #5368df;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.firefox-btn {
+  background-color: #f7f7f7;
+  border: none;
+  color: #3d3d3d;
+  padding: 10px 15px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.header-svg {
+  z-index: 3;
+  width: 100%;
+  height: auto;
+}
+.res-section {
+  display: none;
+}
+
+@media only screen and (max-width: 769px) {
+  .desktop-section {
+    display: none;
+  }
+  .res-section {
+    display: block;
+  }
+}
