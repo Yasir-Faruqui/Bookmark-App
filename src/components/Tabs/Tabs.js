@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Tabs.css";
-import img1 from "../../images/illustration-one.png";
-import img2 from "../../images/illustration-two.png";
-import img3 from "../../images/illustration-three.png";
+import img1 from "../../images/illustration-one.svg";
+import img2 from "../../images/illustration-two.svg";
+import img3 from "../../images/illustration-three.svg";
 
 function Tabs() {
   function displayTabOne() {

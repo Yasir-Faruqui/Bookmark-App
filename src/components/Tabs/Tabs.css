@@ -56,7 +56,7 @@
 }
 @media only screen and (max-width: 900px) {
   .imgs {
-    width: 550px;
+    width: 100%;
     height: 350px;
   }
 }
@@ -65,7 +65,7 @@
     flex-direction: column;
   }
   .imgs {
-    width: 450px;
+    width: 100%;
     height: 350px;
   }
 }
